@@ -1,8 +1,0 @@
-streamlit
-matplotlib
-seaborn
-pandas
-numpy
-tqdm
-tensorflow
-tensorflow==2.12.0
