@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 # Streamlit configurations
 #st.set_option('deprecation.showfileUploaderEncoding', False)
-st.title("Gender Prediction from UTKFace Dataset")
+st.title("Gender Prediction Using CNN")
 
 # Function to extract the zip file
 def extract_zip(zip_file_path, extract_to_path):
