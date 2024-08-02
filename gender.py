@@ -18,7 +18,7 @@ from PIL import Image
 warnings.filterwarnings('ignore')
 
 # Streamlit configurations
-st.set_option('deprecation.showfileUploaderEncoding', False)
+#st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Gender and Age Prediction from UTKFace Dataset")
 
 # Function to extract the zip file
