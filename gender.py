@@ -78,7 +78,7 @@ def extract_features(images):
     return features
 
 # File uploader
-uploaded_file = st.file_uploader("Choose a zip file containing the UTKFace dataset", type="zip")
+uploaded_file = st.file_uploader("Choose a zip file containing the dataset", type="zip")
 
 if uploaded_file is not None:
     with st.spinner('Extracting zip file...'):
