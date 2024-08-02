@@ -5,7 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 import tensorflow as tf
 from keras.preprocessing.image import load_img
 from keras.models import Sequential, Model
@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 # Streamlit configurations
 #st.set_option('deprecation.showfileUploaderEncoding', False)
-st.title("Gender and Age Prediction from UTKFace Dataset")
+st.title("Gender Prediction from UTKFace Dataset")
 
 # Function to extract the zip file
 def extract_zip(zip_file_path, extract_to_path):
